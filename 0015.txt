@@ -1,0 +1,940 @@
+
+
+
+
+
+
+
+                                              PART-1
+                                           FIRST PROGRAM
+
+
+
+\// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespacce std;
+int main() 
+{
+    cout << "hello world";
+    return 0;
+}
+
+
+____________________________________________________________________________
+
+                              
+                                    PART-2
+                               SECOND PROGRAM
+
+
+
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+int a;
+int b;
+cout<<"enter your reg No:faizal.";
+cin >>a;
+cout<<"your frnd Reg No.";
+cin>>b;
+cout<<"faizal your Reg No is:"<<a<<endl;
+cout<<"your frnds Reg No is:"<<b;
+
+return 0;
+}
+
+
+__________________________________________________________________________
+
+
+                                     PART-3
+                                  DATA TYPES
+
+
+
+
+// data types
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 10;
+    float b =10.5;
+    double c =10.5555;
+    char d = 'F';
+    string e = "Faizal Rahman";
+    
+    cout<<"integer:"<<a<<endl;
+    cout<<"float:"<<b<<endl;
+    cout<<"double:"<<c<<endl;
+    cout<<"character:"<<d<<endl;
+    cout<<"string:"<<e<<endl;
+    
+    return 0;
+    }
+
+
+________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+                                      PART 1   
+             
+
+ // Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+ 
+  int a;
+  cout<<"Enter your age:";
+  cin>>a;
+  if(a>=18)
+  {
+  cout<<a<<" you are eligible vote!";
+  }
+  else
+  {
+    int years_left=18-a;
+    cout<<a<<" you are not eligible for vote!"<<endl;
+    cout<<"you have to wait for"<<years_left<<"years";
+
+  }
+ 
+    return 0;
+  }
+
+
+
+______________________________________________________________________________________________
+
+                                           PART 2
+
+ // Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+ 
+  int a;
+  cout<<"Enter your age:";
+  cin>>a;
+  if(a>=18)
+  {
+  cout<<a<<" you are eligible vote!";
+  }
+  else
+  {
+
+    cout<<a<<" you are not eligible for vote!"<<endl;
+    cout<<"you have to wait for "<<18-a<< "years";
+
+  }
+ 
+    return 0;
+  }
+
+
+
+_____________________________________________________________________________
+
+                         PART-3
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int num1, num2, num3;
+    cout<<"Enter three numbers:";
+    cin >> num1 >> num2 >> num3;
+  
+    //find the largest number out of 
+    if (num1>=num2 && num2 >=num3)
+    {
+     cout<<num1<<"is the largest number"<<endl;
+    
+    }
+    else if (num2>=num1 && num2 >=num3)
+   {
+       cout<<num2 <<"is the largest number"<<endl;
+   }
+   else
+   {
+       cout<<num3<<" is the largestnumber"<<endl;
+   }
+   
+    return 0;
+}
+
+
+
+_________________________________________________________________
+
+                          PART-4
+                          LOOPS 
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+   for(int i=1 ; i<=10;i++)
+   {
+   cout<<i<<endl;
+   }
+return 0;
+}
+
+
+
+______________________________________________________________________
+
+                        ---LOOPS--
+
+
+loops in C++
+
+ loops in C++ are used to execute a block of a code repeatedly until a certain condition is met.They help in manage repetitive tasks.
+
+
+1.     for loops: Used when the number of iteration is known beforehand .
+
+
+2.    while loop : Used when the number of iteration Is not known and depend on a condition.
+
+
+3.    do while loop :similar to the while loop, but gurantes that the block of code will be executed at least          once before checking the condition
+
+_________________________________________________________________________________________
+
+                             PART-5
+                        --WHILE LOOPS--
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+   int i=1 ; 
+   
+  while(i<=5)
+   {
+   cout<<i<<endl;
+   i++;
+   
+   
+   }
+return 0;
+}
+
+  
+____________________________________________________________________
+
+                     
+                               PART-6
+                      --Function in C++,--
+
+A function in C++ is a group of  statement that performs a specific task and can be reused anywhere in the program
+
+1. Reusability - write once, use many times. 
+2. Readability -Code becomes easier to read and understand.
+3. Debugging   - Error are easier
+
+
+
+
+
+
+
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+//function Defination
+void greet()
+{
+   cout<<"happy birthday!!!"<<endl;
+}
+int main()
+{
+    greet(); //calling the function 
+    greet();
+    
+    //body
+    return 0;
+}
+
+
+__________________________________________________________________________________________________
+
+
+
+                                   PART-7
+                    --ADDITION SUBRACTION MULTIPLICATION--
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+//function Defination
+int add (int a, int b)
+{
+    return a+b;//passing paraneters 
+}
+int mul(int a ,int b) 
+{
+    return a*b;
+}
+int sub(int a ,int b)
+
+{
+  return a-b;
+}
+int main()
+  {
+      cout<<"Addition:"<<add(5,10)<<endl;
+      cout<<"multiplication:"<<mul(2,2)<<endl;
+      cout<<"subraction:"<<sub(5,3)<<endl;
+      
+  
+
+_________________________________________________________________________________________________________________
+  
+
+                                  PART-8
+
+                              OBJECT ORITENT
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    
+    int day;
+    cout<<"enter a number (1-7) corresponding to the day of the week:";
+    cin>>day;
+    //switch statement to determine the day of the week
+    switch(day)
+    {
+    case 1:
+        cout<<"monday"<<endl;
+        break;
+        
+    case 2:
+        cout<<"tuesday"<<endl;
+        break;
+    
+    case 3:
+        cout<<"wednesday"<<endl;
+        break;
+    
+    case 4:
+        cout<<"thursday"<<endl;
+        break;
+    
+    case 5:
+        cout<<"friday"<<endl;
+        break;
+    
+    case 6:
+        cout<<"saturday"<<endl;
+        break;
+        
+    case 7:
+        cout<<"sunday"<<endl;
+        break;
+    default:
+        cout<<"invalid input ! please enter a number between 1 and 7"<<endl;
+        break;
+    }
+    return 0;
+}
+
+
+
+
+__________________________________________________________________________________________
+
+
+                                        part-9
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class bike {
+    public://public Access specifier
+    string brand;
+    string model;
+    int price;
+    int year;
+    
+ void display(){ 
+     
+     cout<<"brand name is:"<<brand<<endl;//direct way of printing
+    cout<<"model is:"<<model<<endl;//direct way of printing
+    cout<<"price of the bike is:"<<price<<endl;
+    cout<<"year of manufacture is:"<<year<<endl;
+ }
+};
+
+int main() 
+{
+    bike bike1 ;//Creating an object of the class
+    bike1.brand= "BMW";
+    bike1.model= "R-class";
+    bike1.price= 2500000;
+    bike1.year= 2023;
+    
+    
+    
+    bike bike2 ;//Creating an object of the class
+    bike2.brand="BMW";
+    bike2.model="s-class";
+    bike2.price=2000000;
+    bike2.year=2024;
+     
+    bike1.display();//displaying the by using function
+    
+    bike2.display();//displaying the by using function
+    
+    return 0;
+}
+
+
+
+
+_______________________________________________________________________________
+
+         
+                       PARTS-10
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class bike {
+    public://public Access specifier
+    string company;
+    string model;
+    int price;
+    int year;
+    
+ void display(){ 
+     
+     cout<<"company name is:"<<company<<endl;//direct way of printing
+    cout<<"model is:"<<model<<endl;//direct way of printing
+    cout<<"price of the bike is:"<<price<<endl;
+    cout<<"year of manufacture is:"<<year<<endl;
+ }
+};
+
+int main() 
+{
+    bike bike1 ;//Creating an object of the class
+    cout<<"enter the company name:"<<endl;
+    //cin>>bike1.company
+    getline(cin,bike1.company);
+    cout<<"enter the model name:"<<endl;
+    getline(cin,bike1.model);
+    cout<<"enter the price:"<<endl;
+    cin>>bike1.price;
+    cout<<"enter the man.f year:"<<endl;
+    cin>>bike1.year;
+    bike1.display();
+    
+    return 0;
+}
+
+
+
+
+______________________________________________________________________________________
+
+       
+                              PART-11
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class bike {
+    public://public Access specifier
+    string company;
+    string model;
+    int price;
+    int year;
+    
+ void display(){ 
+     
+     cout<<"company name is:"<<company<<endl;//direct way of printing
+    cout<<"model is:"<<model<<endl;//direct way of printing
+    cout<<"price of the bike is:"<<price<<endl;
+    cout<<"year of manufacture is:"<<year<<endl;
+ }
+};
+
+int main() 
+{
+    bike bike1 ;//Creating an object of the class
+    cout<<"enter the company name:"<<endl;
+    getline(cin,bike1.company);
+    
+    cout<<"enter the model name:"<<endl;
+    getline(cin,bike1.model);
+    
+    cout<<"enter the price:"<<endl;
+    cin>>bike1.price;
+    
+    cout<<"enter the man.f year:"<<endl;
+    cin>>bike1.year;
+    
+    cin.ignore();
+    
+    cout<<endl;
+    
+    bike bike2;
+    cout<<"enter  the bike name:"<<endl;
+    getline(cin,bike2.company);
+    
+    cout<<"enter the model name:"<<endl;
+    getline(cin,bike2.model);
+    
+    cout<<"enter the price:"<<endl;
+    cin>>bike2.price;
+    
+    cout<<"enter the man.f year:"<<endl;
+    cin>>bike2.year;
+    
+    cout<<endl;
+    
+    cout<<"name of the company is:"<<bike1.company<<endl;
+    cout<<"name of the model is:"<<bike1.model<<endl;
+    cout<<"name of the price is:"<<bike1.price<<endl;
+    cout<<"year of manufractur is:"<<bike1.year<<endl;
+    
+    
+    cout<<"name of the company is:"<<bike2.company<<endl;
+    cout<<"name of the model is:"<<bike2.model<<endl;
+    cout<<"name of the price is:"<<bike2.price<<endl;
+    cout<<"year of manufractur is:"<<bike2.year<<endl;
+    
+    return 0;
+}
+
+
+
+
+
+___________________________________________________________________________________________
+
+
+     
+                           PART-12
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class teacher {
+    public://public Access specifier
+    string name;
+    string subject;
+    int experience;
+    int gender;
+    
+ 
+};
+
+int main() 
+{
+    teacher teacher1;//Creating an object of the class
+    cout<<"enter the name of the teacher:"<<endl;
+    getline(cin,teacher1.name);
+    
+    cout<<"enter the subject teached by teacher name:"<<endl;
+    getline(cin,teacher1.subject);
+    
+    cout<<"how many years of experience:"<<endl;
+    cin>>teacher1.experience;
+    
+    cout<<"enter the gender:"<<endl;
+    cin>>teacher1.gender;
+    
+    
+    cin.ignore();
+    
+    cout<<endl;
+    
+    teacher teacher2;
+    cout<<"enter the name of the teacher:"<<endl;
+    getline(cin,teacher2.name);
+    
+    cout<<"enter the subject teached by teacher name:"<<endl;
+    getline(cin,teacher2.subject);
+    
+    cout<<"how many years of experience:"<<endl;
+    cin>>teacher2.experience;
+    
+    cout<<"enter the gender:"<<endl;
+    cin>>teacher2.gender;
+    
+    cout<<endl;
+    
+    cout<<"name of the teacher is:"<<teacher1.name<<endl;
+    cout<<"name of subject is:"<<teacher1.subject<<endl;
+    cout<<"years of experience is:"<<teacher1.experience<<endl;
+    cout<<"gender is:"<<teacher1.gender<<endl;
+    
+    cout<<"name of the teacher is:"<<teacher2.name<<endl;
+    cout<<"name of subject is:"<<teacher2.subject<<endl;
+    cout<<"years of experience is:"<<teacher2.experience<<endl;
+    cout<<"gender is:"<<teacher2.gender<<endl;
+    
+    return 0;
+}
+
+
+
+____________________________________________________________________________________________________
+
+
+                                   PART-13
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class teacher{
+  private: //data members
+   string name;
+   string subject;
+   int year;
+ public:
+     void setdetail(string tname,string tsubject,int  tyear)
+     {
+         name=tname;
+         subject=tsubject;
+         year =tyear;
+     }
+     //member function
+     void display()
+     {
+          cout<<"name:"<<name<<endl;
+          cout<<"subject:"<<subject<<endl;
+          cout<<"year:"<<year<<endl;
+     }
+};
+    int main(){
+        //create 2 object
+        teacher t1 , t2 , t3;
+        //Assign values to object 
+        /*t1.name="Riya";
+        t1.subject="Electronis";
+        t1.year=9;*/
+        
+        t1.setdetail("Riya","Electronics",9);
+        t2.setdetail("Raj","CS",4);
+        t3.setdetail("Rakesh","CS",6);
+        
+        t1.display();
+        t2.display();
+        t3.display();
+
+       return 0;
+       
+}
+
+
+
+
+
+______________________________________________________________________________________________________
+
+
+                       
+                                 PART-14
+
+
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+ class car{
+public:
+  string make;
+  string model;
+  int year;
+  
+  //default constructor(no parameters)
+  car(){
+      make="BENZ";
+      model="Xo8";
+      year=2;
+  }
+  
+  void displayinfo(){
+      cout<<year<<""<<make<<model<<endl;
+  }
+};
+ int main(){
+     //creating an object default construction
+     car mycar;
+     
+     //display the information
+     mycar.displayinfo();
+  
+    return 0;
+}
+     
+
+
+
+_____________________________________________________________________________________
+
+
+
+                     PART-15
+                 --CONSTRUCTOR--
+
+
+
+// Online C++ compiler to run C++ program online                                OR                 
+#include <iostream>
+using namespace std;
+class teacher 
+{
+    public:
+    string name;
+    string dept;
+    int experience;
+    double salary;
+    
+    //constructor
+    teacher()
+    {  
+        name="faizal";
+        dept="computer science";
+        experience=6;
+        salary=20000;
+    
+    }
+    void displayinfo()
+    {
+     cout<<"teacher name:"<<name<<endl;
+     cout<<"department:"<<dept<<endl;
+     cout<<"experience:"<<experience<<endl;
+     cout<<"salary:"<<salary<<endl;
+    }
+};
+
+int main()
+  {
+    teacher t1;//create an object
+    t1.displayinfo();
+     return 0;
+}
+
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class teacher 
+{
+    public:
+    string name;
+    string dept;
+    int experience;
+    float salary;
+    
+    //constructor
+    teacher()
+    {  
+       
+    
+     cout<<"teacher name:"<<"FAIZAL"<<endl;
+     cout<<"department:"<<"COMPUTER SCIENCE"<<endl;
+     cout<<"experience:"<<1<<endl;
+     cout<<"salary:"<<10000<<endl;
+    }
+};
+
+int main()
+  {
+    teacher t1;//create an object
+    
+     return 0;
+}
+
+
+
+
+
+____________________________________________________________________________________________________
+
+
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class teacher 
+{
+    public:
+    string name;
+    string dept;
+    int experience;
+    float salary;
+    
+    //constructor
+    teacher(string n, string d, int e , int s)
+ {
+    
+     
+     cout<<"teacher name:"<<n<<endl;
+     cout<<"department:"<<d<<endl;
+     cout<<"experience:"<<e<<endl;
+     cout<<"salary:"<<s<<endl;
+    }
+};
+
+int main()
+  {
+    teacher t1("faizal","CSE",10,10000);//create an object
+    cout<<endl;
+    teacher t2("sanjay","maths",8,2000);
+     return 0;
+}
+
+
+
+
+_________________________________________________________________________________________________________
+
+
+
+                                              PART 16
+                                          ENCAPSULATION
+
+
+
+
+FEATURE                                      ENCAPSULATION                           ABSTRACTION
+
+Achieved by                             access modifies (private, public)          abstract classes ,interfaces , or pure
+                                                                                    
+
+____________________________________________________________________________________________________________________________________
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class parent
+{
+public:
+void food()
+{
+    cout<<"inherited.burgar";}
+};
+class child: public parent //creating the child class inherting it
+{};
+
+int main()
+{
+child b;
+b.food();
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          
+
