@@ -82,8 +82,34 @@ int main()
 ________________________________________________________________________
 
 
+                          PART-4
+                     LOGICAL OPURATOR
 
 
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ 
+int a=10;
+int b=20;
+//logical operators
+cout<<"Logical AND exp1:"<<(a>5 && a<20)<<endl;
+cout<<"Logical AND exp2:"<<(a<5 && a>15)<<endl;
+cout<<"Logical OR exp1:"<<(a>0||b>0)<<endl;
+cout<<"Logical NOT:"<<!(a>0)<<endl;
+
+return 0;
+
+}
+
+
+______________________________________________________________
+
+ 
+                    PART-5
 
 
 
